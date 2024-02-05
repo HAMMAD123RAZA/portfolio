@@ -25,7 +25,7 @@ const Project = () => {
 
   return (
     <div id='project'>
-      <h1 className='text-primary my-5 mx-3'>Projects</h1>
+      <h1 className='text-primary my-5 mx-3'>My Projects</h1>
       <Grid container spacing={8}>
         {Data.map((el) => (
           <Grid item xs={12} sm={6} key={el.title}>
